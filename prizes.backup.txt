@@ -1,0 +1,5 @@
+Pen,10,1
+Book,20,2
+DVD,30,3
+Mouse,40,4
+Keyboard,50,5

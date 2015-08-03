@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LuckyGuessGenerator()
+comment0.text=\r\n\ Constructor\ with\ no\ parameters.\r\n
+comment1.params=newNumber
+comment1.target=LuckyGuessGenerator(int)
+comment1.text=\r\n\ Constructor\ which\ takes\ all\ fields\ as\ parameters.\r\n\ \r\n\ @param\ newNumber\ Number\ to\ be\ started\ as\ the\ random\ number.\r\n
+comment2.params=
+comment2.target=void\ displayRandomNumber()
+comment2.text=\r\n\ This\ method\ prints\ the\ last\ random\ number\ that\ was\ generated\ or\ \r\n\ the\ value\ stored\ in\ randomNumber\ if\ the\ generateRandomNumber()\ \r\n\ has\ not\ yet\ been\ called.\r\n
+comment3.params=n
+comment3.target=int\ generateRandomNumber(int)
+comment3.text=\r\n\ This\ method\ generates\ a\ new\ number\ between\ 1\ and\ n\ (inclusive)\ \r\n\ and\ returns\ it.\r\n\ \r\n\ The\ Math.random()\ method\ is\ used\ to\ generate\ a\ random\ double\ \r\n\ between\ 0.0\ and\ less\ than\ 1.0.\ It\ is\ then\ multiplied\ by\ n\ and\ \r\n\ cast\ as\ an\ integer\ to\ generate\ a\ number\ between\ 0\ and\ (n-1).\ \r\n\ Finally\ it\ is\ added\ to\ 1\ to\ generate\ a\ number\ between\ 1\ and\ n.\r\n\ \r\n\ @param\ n\ \ \ \ \ The\ upper\ limit\ of\ the\ range\ of\ numbers\ to\ be\ generated.\r\n\ @return\ \ \ \ \ \ The\ random\ number\ that\ was\ generated.\r\n
+comment4.params=
+comment4.target=int\ getRandomNumber()
+comment4.text=\r\n\ Accessor\ method\ for\ randomNumber\ variable.\r\n\ \r\n\ @return\ \ \ \ \ \ The\ random\ number.\r\n
+comment5.params=newNumber
+comment5.target=void\ setRandomNumber(int)
+comment5.text=\r\n\ Mutator\ method\ for\ randomNumber\ variable.\r\n\ \r\n\ @param\ newNumber\ \ \ \ \ \ The\ new\ random\ number\ to\ be\ stored\ in\ the\ variable.\r\n
+numComments=6
